@@ -1,0 +1,13 @@
+# The command to run your application
+run = "npm run dev"
+
+# The programming language and environment
+language = "nix"
+
+# The file that Replit should open by default
+entrypoint = "src/App.tsx"
+
+# Configuration for the Nix environment
+[nix]
+# The Nix channel to use
+channel = "stable-23_11"
